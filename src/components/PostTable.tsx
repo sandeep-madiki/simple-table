@@ -41,7 +41,7 @@ const PostTable = () => {
           <tr className="t-head">
             <th className="cell-con">Title</th>
             <th className="cell-con">Body</th>
-            <th className="cell-con">Action</th>
+            <th className="cell-con">Actions</th>
           </tr>
         </thead>
 
