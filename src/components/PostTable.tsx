@@ -51,16 +51,8 @@ const PostTable = () => {
               <tr key={post.id}>
                 <td className="cell-con">{post.title}</td>
                 <td className="cell-con">{post.body}</td>
-                <td
-                  className="cell-con"
-                  style={{ display: "flex", justifyContent: "center" }}
-                >
-                  <button
-                    onClick={() => openModal(post)}
-                    style={{ fontWeight: "bold" }}
-                  >
-                    i
-                  </button>
+                <td className="cell-con-1">
+                  <button onClick={() => openModal(post)}>i</button>
                 </td>
               </tr>
             );

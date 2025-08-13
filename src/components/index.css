@@ -4,15 +4,26 @@
 
 .t-head th {
   padding: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
 }
 
 .table-con {
-  padding: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
 }
 
 .cell-con {
   text-align: left;
-  border: 1px solid;
+  border: 1px solid #ccc;
+  padding-left: 6px;
+}
+
+.cell-con-1 {
+  text-align: center;
+  border: 1px solid #ccc;
 }
 
 .btn-style {
